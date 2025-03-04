@@ -1,16 +1,24 @@
 # SimpleAPI-Get-Post
 
-# 1 Clone ลงเครื่องหรือโหลดลง
+## ขั้นตอนการติดตั้งและใช้งาน
 
-# 2 เมื่อลงเสร็จแล้วให้ทำการเปิดด้วย VisualCode และเปิด Terminal
+1. **Clone ลงเครื่องหรือโหลดลงแล้วแต่ความถนัด:**
 
-# 3 พิมคำสั่งว่า npm install เพื่อติดตั้ง Node_modules
+2. **เมื่อลงเสร็จแล้วให้ทำการเปิดด้วย VisualCode และเปิด Terminal:**
 
-``bash``
+3. **พิมคำสั่งว่า npm install เพื่อติดตั้ง Node_modules:**
+
+```bash
 npm install
-``bash``
+```
+4.  **สั่งให้ Server ทำงานเมื่อติดตั้ง Node_modules เสร็จแล้วให้พิมคำสั่งว่า  node src/app.js เพื่อรัน server:**
 
-# 4 เมื่อติดตั้ง Node_modules เสร็จแล้วให้พิมคำสั่งว่า  node src/app.js เพื่อรัน server
-``bash``
+```bash
 node src/app.js
-``bash``
+```
+
+5. **เมื่อ server ได้รันขึ้นมาแล้วให้ทำการ เข้า url ตามนี้ :**
+```bash
+http://localhost:3000/api-docs
+```
+
