@@ -21,4 +21,3 @@ node src/app.js
 ```bash
 http://localhost:3000/api-docs
 ```
-
